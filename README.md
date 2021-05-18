@@ -1,6 +1,6 @@
-#H1 DAA-Practical-2021
-##H2Question -1
-###H3omplexity:
+# DAA-Practical-2021
+#Question -1
+#Complexity:
 The time-complexity of inserting a single element into an RB-tree is O (log n) where n is the current size of the tree. The time-complexity of inserting n elements into an empty RB-tree is, therefore, O (n log n). The time-complexity of inserting 10 elements into an empty RB-tree is constant, or O (1)
 Applications:
 Red-black trees are needed when height balancing is a desirable trait, and insertion/deletion must not be too slow either. RB trees are common in the Linux kernel. Two of the places where you can see it are:
